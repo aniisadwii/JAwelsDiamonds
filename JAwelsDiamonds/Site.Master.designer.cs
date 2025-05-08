@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace JAwelsDiamonds
+namespace JAwels
 {
 
 
@@ -22,6 +22,15 @@ namespace JAwelsDiamonds
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder HeadContent;
+
+        /// <summary>
+        /// phNav control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.PlaceHolder phNav;
 
         /// <summary>
         /// MainContent control.
