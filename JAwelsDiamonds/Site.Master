@@ -1,0 +1,178 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="JAwels.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContent" runat="server">JAwels & Diamonds</asp:ContentPlaceHolder>
+    </title>
+    <style type="text/css">
+        /* Variables */
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #2c3e50;
+            --text-color: #333;
+            --text-light: #7f8c8d;
+            --success-color: #27ae60;
+            --warning-color: #f39c12;
+            --shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+
+        /* Base Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: var(--transition);
+        }
+
+        /* Layout */
+        .navbar {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem 2rem;
+            box-shadow: var(--shadow);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+            .nav-links a {
+                color: var(--light-color);
+                padding: 0.5rem 0;
+                position: relative;
+                font-weight: 500;
+            }
+
+                .nav-links a:hover {
+                    color: white;
+                }
+
+                .nav-links a:after {
+                    content: '';
+                    position: absolute;
+                    width: 0;
+                    height: 2px;
+                    bottom: 0;
+                    left: 0;
+                    background-color: white;
+                    transition: var(--transition);
+                }
+
+                .nav-links a:hover:after {
+                    width: 100%;
+                }
+
+        .welcome-message {
+            color: var(--light-color);
+            margin-left: 1rem;
+            font-weight: 500;
+        }
+
+        .content {
+            min-height: calc(100vh - 120px);
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .navbar {
+                padding: 1rem;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .nav-links {
+                margin-top: 1rem;
+                gap: 1rem;
+                flex-direction: column;
+                align-items: flex-start;
+                width: 100%;
+            }
+
+            .content {
+                padding: 1rem;
+            }
+        }
+
+        .welcome-message {
+            color: var(--light-color);
+            margin-left: 1rem;
+            font-weight: 500;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+        <header class="navbar">
+            <a href="~/Home.aspx" class="logo">JAwels & Diamonds</a>
+            <div class="nav-links">
+                <asp:PlaceHolder ID="phNav" runat="server">
+
+                    <% if (Session["UserRole"] == null)
+                        { %>
+                    <a href="<%= ResolveUrl("~/Views/Home.aspx") %>">Home</a>
+                    <a href="<%= ResolveUrl("~/Views/Guest/Login.aspx") %>">Login</a>
+                    <a href="<%= ResolveUrl("~/Views/Guest/Register.aspx") %>">Register</a>
+                    <% }
+                        else if (Session["UserRole"].ToString() == "Customer")
+                        { %>
+                    <a href="<%= ResolveUrl("~/Views/Home.aspx") %>">Home</a>
+                    <a href="<%= ResolveUrl("~/Views/Customer/Cart.aspx") %>">Cart</a>
+                    <a href="<%= ResolveUrl("~/Views/Customer/MyOrders.aspx") %>">My Orders</a>
+                    <a href="<%= ResolveUrl("~/Views/Customer/Profile.aspx") %>">Profile</a>
+                    <a href="<%= ResolveUrl("~/Views/Logout.aspx") %>">Logout</a>
+                    <% }
+                        else if (Session["UserRole"].ToString() == "Admin")
+                        { %>
+                    <a href="<%= ResolveUrl("~/Views/Home.aspx") %>">Home</a>
+                    <a href="<%= ResolveUrl("~/Views/Admin/AddJewel.aspx") %>">Add Jewel</a>
+                    <a href="<%= ResolveUrl("~/Views/Admin/Reports.aspx") %>">Reports</a>
+                    <a href="<%= ResolveUrl("~/Views/Admin/HandleOrders.aspx") %>">Handle Orders</a>
+                    <a href="<%= ResolveUrl("~/Views/User/Profile.aspx") %>">Profile</a>
+                    <a href="<%= ResolveUrl("~/Views/Logout.aspx") %>">Logout</a>
+                    <% } %>
+
+                    <span class="welcome-message">
+                        <% if (Session["UserName"] != null)
+                            { %>Welcome, <%= Session["UserName"].ToString() %>!<% } %>
+                    </span>
+                </asp:PlaceHolder>
+            </div>
+        </header>
+
+        <main class="content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+        </main>
+
+        <footer style="background-color: var(--primary-color); color: white; text-align: center; padding: 1rem;">
+            &copy; <%= DateTime.Now.Year %> JAwels & Diamonds. All rights reserved.
+        </footer>
+    </form>
+</body>
+</html>
