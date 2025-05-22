@@ -1,4 +1,5 @@
 ﻿using JAwelsDiamonds.Models;
+using JAwelsDiamonds.Views;
 using System.Linq;
 
 namespace JAwels.Repositories
@@ -11,6 +12,8 @@ namespace JAwels.Repositories
         {
             return db.MsUsers.FirstOrDefault(u => u.UserEmail == email);
         }
+
+        
 
         public static void AddUser(MsUser user)
         {

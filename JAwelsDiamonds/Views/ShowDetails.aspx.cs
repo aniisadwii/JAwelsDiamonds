@@ -103,7 +103,7 @@ namespace JAwelsDiamonds.Views
         protected void btnEdit_Click(object sender, EventArgs e)
         {
             int jewelId = Convert.ToInt32(Request.QueryString["JewelID"]);
-            Response.Redirect("~/Views/Admin/EditJewel.aspx?JewelID=" + jewelId);
+            Response.Redirect("~/Views/Admin/UpdateJewel.aspx?JewelID=" + jewelId);
         }
 
         protected void btnDelete_Click(object sender, EventArgs e)

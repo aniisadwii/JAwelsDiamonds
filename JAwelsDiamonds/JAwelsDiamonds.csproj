@@ -29,10 +29,10 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\</OutputPath>
+    <OutputPath>~\Views\Home.aspx\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <WarningLevel>2</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -208,6 +208,7 @@
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Views\Admin\AddJewel.aspx" />
+    <Content Include="Views\Admin\UpdateJewel.aspx" />
     <Content Include="Views\Customer\Cart.aspx" />
     <Content Include="Views\Customer\MyOrders.aspx" />
     <Content Include="Views\ShowDetails.aspx" />
@@ -237,6 +238,7 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\MsJewelController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -249,6 +251,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Handlers\CartHandler.cs" />
+    <Compile Include="Handlers\MsJewelHandler.cs" />
     <Compile Include="Handlers\UserHandler.cs" />
     <Compile Include="Models\Cart.cs">
       <DependentUpon>FreshModel.tt</DependentUpon>
@@ -286,8 +289,10 @@
     <Compile Include="Models\TransactionHeader.cs">
       <DependentUpon>FreshModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Module\Response.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\CartRepository.cs" />
+    <Compile Include="Repositories\MsJewelRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -316,6 +321,13 @@
     </Compile>
     <Compile Include="Views\Admin\AddJewel.aspx.designer.cs">
       <DependentUpon>AddJewel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\UpdateJewel.aspx.cs">
+      <DependentUpon>UpdateJewel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\UpdateJewel.aspx.designer.cs">
+      <DependentUpon>UpdateJewel.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Customer\Cart.aspx.cs">
       <DependentUpon>Cart.aspx</DependentUpon>
