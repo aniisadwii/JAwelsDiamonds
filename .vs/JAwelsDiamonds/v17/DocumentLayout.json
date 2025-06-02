@@ -3,44 +3,62 @@
   "WorkspaceRootPath": "C:\\Projects\\ProjectPSDFIXXX\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|c:\\projects\\projectpsdfixxx\\jawelsdiamonds\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|c:\\projects\\projectpsdfixxx\\jawelsdiamonds\\views\\admin\\reports.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\views\\admin\\reports.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|c:\\projects\\projectpsdfixxx\\jawelsdiamonds\\views\\admin\\handleorders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\views\\admin\\handleorders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|c:\\projects\\projectpsdfixxx\\jawelsdiamonds\\views\\admin\\editjewel.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\views\\admin\\editjewel.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|c:\\projects\\projectpsdfixxx\\jawelsdiamonds\\views\\admin\\addjewel.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\views\\admin\\addjewel.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|c:\\projects\\projectpsdfixxx\\jawelsdiamonds\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|c:\\projects\\projectpsdfixxx\\jawelsdiamonds\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|c:\\projects\\projectpsdfixxx\\jawelsdiamonds\\repositories\\jewelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\repositories\\jewelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|c:\\projects\\projectpsdfixxx\\jawelsdiamonds\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|c:\\projects\\projectpsdfixxx\\jawelsdiamonds\\handlers\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\handlers\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|c:\\projects\\projectpsdfixxx\\jawelsdiamonds\\handlers\\transactionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\handlers\\transactionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|c:\\projects\\projectpsdfixxx\\jawelsdiamonds\\handlers\\carthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\handlers\\carthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|c:\\projects\\projectpsdfixxx\\jawelsdiamonds\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__PROJECTS_PROJECTPSDFIXXX_JAWELSDIAMONDS_APP_DATA_DATABASE.MDF/True/SqlTable/dbo.TransactionHeader.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__PROJECTS_PROJECTPSDFIXXX_JAWELSDIAMONDS_APP_DATA_DATABASE.MDF/True/SqlTable/dbo.TransactionDetail.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|C:\\Projects\\ProjectPSDFIXXX\\jawelsdiamonds\\views\\guest\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\views\\guest\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|C:\\Projects\\ProjectPSDFIXXX\\jawelsdiamonds\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|C:\\Projects\\ProjectPSDFIXXX\\jawelsdiamonds\\views\\admin\\reports.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\views\\admin\\reports.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|C:\\Projects\\ProjectPSDFIXXX\\jawelsdiamonds\\views\\admin\\reports.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\views\\admin\\reports.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|C:\\Projects\\ProjectPSDFIXXX\\jawelsdiamonds\\handlers\\transactionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\handlers\\transactionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|C:\\Projects\\ProjectPSDFIXXX\\jawelsdiamonds\\views\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\views\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|C:\\Projects\\ProjectPSDFIXXX\\jawelsdiamonds\\views\\showdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\views\\showdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|C:\\Projects\\ProjectPSDFIXXX\\jawelsdiamonds\\views\\admin\\handleorders.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\views\\admin\\handleorders.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|C:\\Projects\\ProjectPSDFIXXX\\jawelsdiamonds\\views\\admin\\handleorders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08763CE8-38CA-458C-A1FF-2C13018DFE9F}|JAwelsDiamonds\\JAwelsDiamonds.csproj|solutionrelative:jawelsdiamonds\\views\\admin\\handleorders.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,95 +73,182 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TransactionController.cs",
-              "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Controllers\\TransactionController.cs",
-              "RelativeDocumentMoniker": "JAwelsDiamonds\\Controllers\\TransactionController.cs",
-              "ToolTip": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Controllers\\TransactionController.cs",
-              "RelativeToolTip": "JAwelsDiamonds\\Controllers\\TransactionController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T17:41:06.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TransactionRepository.cs",
-              "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Repositories\\TransactionRepository.cs",
-              "RelativeDocumentMoniker": "JAwelsDiamonds\\Repositories\\TransactionRepository.cs",
-              "ToolTip": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Repositories\\TransactionRepository.cs",
-              "RelativeToolTip": "JAwelsDiamonds\\Repositories\\TransactionRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswBsAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T17:34:21.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TransactionHandler.cs",
-              "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Handlers\\TransactionHandler.cs",
-              "RelativeDocumentMoniker": "JAwelsDiamonds\\Handlers\\TransactionHandler.cs",
-              "ToolTip": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Handlers\\TransactionHandler.cs",
-              "RelativeToolTip": "JAwelsDiamonds\\Handlers\\TransactionHandler.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswBQAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T17:31:08.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Reports.aspx.cs",
               "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Views\\Admin\\Reports.aspx.cs",
               "RelativeDocumentMoniker": "JAwelsDiamonds\\Views\\Admin\\Reports.aspx.cs",
               "ToolTip": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Views\\Admin\\Reports.aspx.cs",
               "RelativeToolTip": "JAwelsDiamonds\\Views\\Admin\\Reports.aspx.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAmwFgAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T17:30:53.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Reports.aspx",
-              "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Views\\Admin\\Reports.aspx",
-              "RelativeDocumentMoniker": "JAwelsDiamonds\\Views\\Admin\\Reports.aspx",
-              "ToolTip": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Views\\Admin\\Reports.aspx",
-              "RelativeToolTip": "JAwelsDiamonds\\Views\\Admin\\Reports.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-31T17:30:51.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Profile.aspx",
-              "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Views\\Profile.aspx",
-              "RelativeDocumentMoniker": "JAwelsDiamonds\\Views\\Profile.aspx",
-              "ToolTip": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Views\\Profile.aspx",
-              "RelativeToolTip": "JAwelsDiamonds\\Views\\Profile.aspx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-31T17:30:37.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ShowDetails.aspx",
-              "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Views\\ShowDetails.aspx",
-              "RelativeDocumentMoniker": "JAwelsDiamonds\\Views\\ShowDetails.aspx",
-              "ToolTip": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Views\\ShowDetails.aspx",
-              "RelativeToolTip": "JAwelsDiamonds\\Views\\ShowDetails.aspx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-31T17:30:33.23Z",
+              "WhenOpened": "2025-06-02T05:12:30.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "HandleOrders.aspx.cs",
+              "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Views\\Admin\\HandleOrders.aspx.cs",
+              "RelativeDocumentMoniker": "JAwelsDiamonds\\Views\\Admin\\HandleOrders.aspx.cs",
+              "ToolTip": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Views\\Admin\\HandleOrders.aspx.cs",
+              "RelativeToolTip": "JAwelsDiamonds\\Views\\Admin\\HandleOrders.aspx.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:12:25.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditJewel.aspx.cs",
+              "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Views\\Admin\\EditJewel.aspx.cs",
+              "RelativeDocumentMoniker": "JAwelsDiamonds\\Views\\Admin\\EditJewel.aspx.cs",
+              "ToolTip": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Views\\Admin\\EditJewel.aspx.cs",
+              "RelativeToolTip": "JAwelsDiamonds\\Views\\Admin\\EditJewel.aspx.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:12:20.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddJewel.aspx.cs",
+              "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Views\\Admin\\AddJewel.aspx.cs",
+              "RelativeDocumentMoniker": "JAwelsDiamonds\\Views\\Admin\\AddJewel.aspx.cs",
+              "ToolTip": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Views\\Admin\\AddJewel.aspx.cs",
+              "RelativeToolTip": "JAwelsDiamonds\\Views\\Admin\\AddJewel.aspx.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:12:14.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "JAwelsDiamonds\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "JAwelsDiamonds\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:12:09.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Repositories\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "JAwelsDiamonds\\Repositories\\TransactionRepository.cs",
+              "ToolTip": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Repositories\\TransactionRepository.cs",
+              "RelativeToolTip": "JAwelsDiamonds\\Repositories\\TransactionRepository.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:12:05.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JewelRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Repositories\\JewelRepository.cs",
+              "RelativeDocumentMoniker": "JAwelsDiamonds\\Repositories\\JewelRepository.cs",
+              "ToolTip": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Repositories\\JewelRepository.cs",
+              "RelativeToolTip": "JAwelsDiamonds\\Repositories\\JewelRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:12:02.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Repositories\\CartRepository.cs",
+              "RelativeDocumentMoniker": "JAwelsDiamonds\\Repositories\\CartRepository.cs",
+              "ToolTip": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Repositories\\CartRepository.cs",
+              "RelativeToolTip": "JAwelsDiamonds\\Repositories\\CartRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:12:00.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserHandler.cs",
+              "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Handlers\\UserHandler.cs",
+              "RelativeDocumentMoniker": "JAwelsDiamonds\\Handlers\\UserHandler.cs",
+              "ToolTip": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Handlers\\UserHandler.cs",
+              "RelativeToolTip": "JAwelsDiamonds\\Handlers\\UserHandler.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:11:54.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TransactionHandler.cs",
+              "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Handlers\\TransactionHandler.cs",
+              "RelativeDocumentMoniker": "JAwelsDiamonds\\Handlers\\TransactionHandler.cs",
+              "ToolTip": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Handlers\\TransactionHandler.cs",
+              "RelativeToolTip": "JAwelsDiamonds\\Handlers\\TransactionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:11:39.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "JAwelsDiamonds\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Controllers\\UserController.cs",
+              "RelativeToolTip": "JAwelsDiamonds\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:11:28.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CartHandler.cs",
+              "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Handlers\\CartHandler.cs",
+              "RelativeDocumentMoniker": "JAwelsDiamonds\\Handlers\\CartHandler.cs",
+              "ToolTip": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Handlers\\CartHandler.cs",
+              "RelativeToolTip": "JAwelsDiamonds\\Handlers\\CartHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T05:11:26.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "dbo.TransactionHeader [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__PROJECTS_PROJECTPSDFIXXX_JAWELSDIAMONDS_APP_DATA_DATABASE.MDF/True/SqlTable/dbo.TransactionHeader.sql",
+              "ToolTip": "dbo.TransactionHeader [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-02T05:10:56.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dbo.TransactionDetail [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__PROJECTS_PROJECTPSDFIXXX_JAWELSDIAMONDS_APP_DATA_DATABASE.MDF/True/SqlTable/dbo.TransactionDetail.sql",
+              "ToolTip": "dbo.TransactionDetail [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-02T05:10:53.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Login.aspx",
               "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Views\\Guest\\Login.aspx",
               "RelativeDocumentMoniker": "JAwelsDiamonds\\Views\\Guest\\Login.aspx",
@@ -152,31 +257,6 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-05-31T17:29:29.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HandleOrders.aspx",
-              "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Views\\Admin\\HandleOrders.aspx",
-              "RelativeDocumentMoniker": "JAwelsDiamonds\\Views\\Admin\\HandleOrders.aspx",
-              "ToolTip": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Views\\Admin\\HandleOrders.aspx",
-              "RelativeToolTip": "JAwelsDiamonds\\Views\\Admin\\HandleOrders.aspx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-31T17:28:54.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HandleOrders.aspx.cs",
-              "DocumentMoniker": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Views\\Admin\\HandleOrders.aspx.cs",
-              "RelativeDocumentMoniker": "JAwelsDiamonds\\Views\\Admin\\HandleOrders.aspx.cs",
-              "ToolTip": "C:\\Projects\\ProjectPSDFIXXX\\JAwelsDiamonds\\Views\\Admin\\HandleOrders.aspx.cs",
-              "RelativeToolTip": "JAwelsDiamonds\\Views\\Admin\\HandleOrders.aspx.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T17:28:40.623Z",
               "EditorCaption": ""
             }
           ]

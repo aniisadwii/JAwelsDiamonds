@@ -6,7 +6,6 @@ using System.Web;
 
 namespace JAwelsDiamonds.Handlers
 {
-    // CartHandler.cs
     public class CartHandler
     {
         private readonly CartRepository _cartRepo;

@@ -24,44 +24,5 @@ namespace JAwelsDiamonds.Handlers
                        .ToList();
             }
         }
-
-        public static TransactionHeader GetTransactionWithDetails(int transactionId)
-        {
-            using (var db = new DatabaseEntities1())
-            {
-                return db.TransactionHeaders
-                    .Include("TransactionDetails.MsJewel")
-                    .Include("MsUser")
-                    .FirstOrDefault(th => th.TransactionID == transactionId);
-            }
-        }
-
-        public static List<TransactionHeader> GetDoneTransactions()
-        {
-            return TransactionRepository.GetDoneTransactionsForReport();
-        }
-
-        public static List<TransactionHeader> GetTransactionsByDateRange(DateTime startDate, DateTime endDate)
-        {
-            using (var db = new DatabaseEntities1())
-            {
-                // Since TransactionDate is DateTime type
-                return db.TransactionHeaders
-                    .Where(th => th.TransactionStatus == "Done"
-                        && th.TransactionDate >= startDate
-                        && th.TransactionDate <= endDate)
-                    .ToList();
-            }
-        }
-
-        public static List<TransactionHeader> GetTransactionsByStatus(string status)
-        {
-            using (var db = new DatabaseEntities1())
-            {
-                return db.TransactionHeaders
-                    .Where(th => th.TransactionStatus == status)
-                    .ToList();
-            }
-        }
     }
 }

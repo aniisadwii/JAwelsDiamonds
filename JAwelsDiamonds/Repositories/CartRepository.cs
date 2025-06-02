@@ -6,7 +6,6 @@ using System.Web;
 
 namespace JAwelsDiamonds.Repositories
 {
-    // CartRepository.cs
     public class CartRepository
     {
         private readonly DatabaseEntities1 _db;

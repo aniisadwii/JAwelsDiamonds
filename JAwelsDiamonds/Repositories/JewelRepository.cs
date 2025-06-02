@@ -8,7 +8,6 @@ namespace JAwelsDiamonds.Repositories
 {
     public class JewelRepository
     {
-
         public static MsJewel GetJewelById(int jewelId)
         {
             using (var db = new DatabaseEntities1())

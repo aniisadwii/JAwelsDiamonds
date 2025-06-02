@@ -44,8 +44,7 @@ namespace JAwels.Controllers
             HttpCookie cookie = new HttpCookie("user_cookie");
             cookie.Values["Email"] = user.UserEmail;
             cookie.Values["Token"] = GenerateAuthToken(user);
-            //cookie.Expires = DateTime.Now.AddDays(30);
-            cookie.Expires = DateTime.Now.AddMinutes(1);
+            cookie.Expires = DateTime.Now.AddDays(30);
             cookie.HttpOnly = true; 
             cookie.Secure = true; 
             return cookie;
@@ -55,8 +54,6 @@ namespace JAwels.Controllers
         {
             return Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(user.UserEmail + DateTime.Now.Ticks));
         }
-
-
 
         public static string DoRegister(string email, string username, string password, string confirmPassword, string gender, DateTime dob)
         {

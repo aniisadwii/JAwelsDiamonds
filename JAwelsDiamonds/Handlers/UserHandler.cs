@@ -69,7 +69,7 @@ namespace JAwels.Handlers
         public static MsUser DoLogin(string email, string password)
         {
             MsUser user = UserRepository.GetUserByEmail(email);
-            if (user == null || user.UserPassword != password) // Ganti dengan hash password di produksi
+            if (user == null || user.UserPassword != password) 
                 return null;
             return user;
         }
@@ -89,7 +89,7 @@ namespace JAwels.Handlers
                 {
                     UserEmail = email,
                     UserName = username,
-                    UserPassword = password, // Ganti dengan hash password di produksi
+                    UserPassword = password, 
                     UserGender = gender,
                     UserDOB = dob,
                     UserRole = "Customer"
